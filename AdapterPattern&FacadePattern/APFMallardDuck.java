@@ -1,4 +1,4 @@
-public class MallardDuck implements APFPDuck {
+public class APFMallardDuck implements APFPDuck {
     public void quack(){
         System.out.println("Quack!");
     }

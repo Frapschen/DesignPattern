@@ -1,5 +1,13 @@
-
-
+/**
+ * @ClassName CurrentConditionsDisplay
+ * @Version 1.0
+ * @Author msi
+ * @Date 2020/2/15 11:27
+ * @Description TODO
+ * Modification User： 陈泯全
+ * Modification Date： 2020.2.15
+ * 这是一个公告板类，它会实时显示当前的气候数据。它是具体的观察者，实现了Observer,DisplayElement接口
+ */
 public class CurrentConditionsDisplay implements Observer,DisplayElement{
     private float temperature;
     private float humidity;

@@ -1,5 +1,5 @@
 public class APFPDuckTestDrive {
-    MallardDuck duck = new MallardDuck();
+    APFMallardDuck duck = new APFMallardDuck();
     WildTurkey turkey = new WildTurkey();
 
     TurkeyAdapter turkeyAdapter = new TurkeyAdapter(turkey);
