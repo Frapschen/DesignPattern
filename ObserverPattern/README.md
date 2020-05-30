@@ -3,8 +3,9 @@
 ### 类图
 ![类图](https://github.com/Frapschen/DesignPattern/blob/master/ObserverPattern/imgs/ClassUML.png)
 ### 使用方法
-观察者模式的关键在于Subject接口与Observer接口。任何主题（被观察者）需要实现Subject接口
-并持有一个Observer接口的结合。任何观察者需要实现Observer接口。然后，使用Subject接口中的
-几个方法就可以注册、删除、通知观察者。 
+* 观察者模式的关键在于Subject接口与Observer接口。任何被观察者(例子中是WeatherData)需要实现Subject接口并
+持有一个Observer接口的集合。这个集合在``notifyObservers()``方法中被使用，循环给所有的观察者发送通知(发送数据，调用``update()``方法)
+* 任何观察者需要实现Observer接口并实现``update()``方法，它持有一个被观察者的对象引用，通过这个引用就可以注册、删除观察者。 
 ### 使用场景
+在java的GUI组件中，大量使用了观察者模式。
 ### 优缺点
