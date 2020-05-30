@@ -1,4 +1,4 @@
-public class StarBuzzCoffee {
+public class StarBuzzCoffeeTest {
     public static void main(String[] args) {
         //新建一个咖啡
         Beverage beverage = new Espresso();

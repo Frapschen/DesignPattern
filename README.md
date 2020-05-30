@@ -4,6 +4,7 @@
 * java 8
 * VS Code&IntelliJ IDEA
 ## 目录
+* [策略模式](./StrategyPattern)
 * [观察者模式](./ObserverPattern)
 * [装饰者模式](./DecoratorPattern)
 ## 设计模式&OO模式准则
