@@ -1,4 +1,4 @@
-public class MiniDuckSimultor{
+public class MiniDuckSimultorTest {
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
         mallard.performFly();

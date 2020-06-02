@@ -1,7 +1,7 @@
 ## 观察者模式
 **定义了对象之间的一对多依赖，这样一来，当一个对象改变状态时，它的所有依赖都会收到通知并自动跟新。**
 ### 类图
-![类图](https://github.com/Frapschen/DesignPattern/blob/master/ObserverPattern/imgs/ClassUML.png)
+![类图](./imgs/ClassUML.png)
 ### 使用方法
 * 观察者模式的关键在于Subject接口与Observer接口。任何被观察者(例子中是WeatherData)需要实现Subject接口并
 持有一个Observer接口的集合。这个集合在``notifyObservers()``方法中被使用，循环给所有的观察者发送通知(发送数据，调用``update()``方法)
@@ -10,3 +10,5 @@
 ### 使用场景
 * 在java的GUI组件中，大量使用了观察者模式。
 * 有关事件处理，数据监控，变化监控的场景使用。
+### 用到的设计原则
+* 为了交互对象之间的松耦合设计二努力。
